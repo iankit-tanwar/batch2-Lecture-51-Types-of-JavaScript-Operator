@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>batch2 Lecture 51 Types of JavaScript Operator</title>
+
+    <style>
+
+    </style>
+
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+    <div id="box"></div>
+
+    <p class="box2"></p>
+
+    <h1 data-ankit="abc"></h1>
+    <h1 data-abhi="abc"></h1>
+
+
+    <script>
+        //Single line comment
+        /* multi line comment 
+        you can write your documentation
+        */
+
+        // so we will create this name var to store the user first name
+
+        var name = "Ankit"
+
+        //1 string
+        // with the help of typeof opereator to find the data type of JavaScript
+
+        console.log(typeof name);
+        console.log(typeof 'Raju');
+        console.log(typeof "Ramesh");
+        console.log(typeof `neelam`);
+
+        //2 Number
+        //define and initilize
+        var x = 5.7;
+
+        console.log(typeof x);
+        console.log(typeof 4);
+        console.log(typeof 9.5);
+
+
+        // by id 
+
+        document.getElementById("box").innerHTML = "hello";
+
+        // I want to see the Js code output with another technique
+        // query selector
+        document.querySelector("p.box2").innerHTML = " Good Morning"
+
+        // custom attritube
+        document.querySelector('h1[data-ankit=abc]').innerHTML = "How Are You"
+        document.querySelector('h1[data-abhi=abc]').innerHTML = typeof x
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
